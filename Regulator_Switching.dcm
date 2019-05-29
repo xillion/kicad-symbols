@@ -2994,6 +2994,12 @@ K regulator switching adjustable
 F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
 $ENDCMP
 #
+$CMP MP2161
+D Monolithic step-down switch mode converter with built-in internal power MOSFETs. 
+K 2A, 6V, 1.5MHz, 8-pin TSOT23
+F https://www.monolithicpower.com/pub/media/document/MP2161_r1.1.pdf
+$ENDCMP
+#
 $CMP NCP1070P065
 D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 65kHz, 22Ohm Rds(on), 250mA Ipk, DIP-7
 K SMPS Converter

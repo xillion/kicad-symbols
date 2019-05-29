@@ -66,4 +66,22 @@ K digital temperature humidity sensor
 F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHT1x_Datasheet.pdf
 $ENDCMP
 #
+$CMP stpm32
+D The STPM3x is an ASSP family designed for high accuracy measurement of power and energies in power line systems using the Rogowski coil, current transformer or shunt current sensors.
+K stpm3x, power meter
+F https://www.st.com/resource/en/datasheet/stpm32.pdf
+$ENDCMP
+#
+$CMP stpm33
+D The STPM3x is an ASSP family designed for high accuracy measurement of power and energies in power line systems using the Rogowski coil, current transformer or shunt current sensors.
+K stpm3x, power meter
+F https://www.st.com/resource/en/datasheet/stpm32.pdf
+$ENDCMP
+#
+$CMP stpm34
+D The STPM3x is an ASSP family designed for high accuracy measurement of power and energies in power line systems using the Rogowski coil, current transformer or shunt current sensors.
+K Power meter, stpm3x
+F https://www.st.com/resource/en/datasheet/stpm32.pdf
+$ENDCMP
+#
 #End Doc Library
