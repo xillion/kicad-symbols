@@ -546,6 +546,11 @@ K display LED 7-segment
 F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
 $ENDCMP
 #
+$CMP MT-8T1
+D Eight digits 7 segment LCD
+K display LCD 7-segment
+$ENDCMP
+#
 $CMP NHD-0420H1Z
 D LCD 20x4 Alphanumeric 16pin Blue/White/Green Backlight, 8bit parallel, 3.3V VDD
 K display LCD 20x4
