@@ -1284,6 +1284,11 @@ K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/DMG3418L.pdf
 $ENDCMP
 #
+$CMP DMG6968UTS
+D DUAL N-CHANNEL ENHANCEMENT MODE MOSFET 
+F https://www.diodes.com/assets/Datasheets/ds31793.pdf
+$ENDCMP
+#
 $CMP DMN10H220L
 D 1.6A Id, 100V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET

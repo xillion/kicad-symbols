@@ -156,6 +156,12 @@ K H-bridge motor driver
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf
 $ENDCMP
 #
+$CMP L9110S
+D Brush motor driver 12V 800mA
+K Motor driver
+F https://www.elecrow.com/download/datasheet-l9110.pdf
+$ENDCMP
+#
 $CMP LMD18200
 D 3A, 55V H-Bridge, Motion Control Applications, TO-220-11
 K H-Bridge DC stepper servo motor driver Motion Control Applications
@@ -294,14 +300,14 @@ K Standalone driver stepper motor
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet_Rev1.08.pdf
 $ENDCMP
 #
-$CMP TMC2130-TA
-D Driver for two-phase bipolar stepper motor, 2.0A, SPI, 4.75-46V, TQFP-48
+$CMP TMC2130-LA
+D Driver for two-phase bipolar stepper motor, 2.0A, SPI, 4.75-46V, QFN-36
 K stepper motor driver
 F http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2130_datasheet.pdf
 $ENDCMP
 #
-$CMP TMC2130-LA
-D Driver for two-phase bipolar stepper motor, 2.0A, SPI, 4.75-46V, QFN-36
+$CMP TMC2130-TA
+D Driver for two-phase bipolar stepper motor, 2.0A, SPI, 4.75-46V, TQFP-48
 K stepper motor driver
 F http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2130_datasheet.pdf
 $ENDCMP

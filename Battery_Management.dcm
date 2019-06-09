@@ -570,4 +570,9 @@ K battery charger lithium
 F http://www.mouser.com/ds/2/268/22090a-52174.pdf
 $ENDCMP
 #
+$CMP TP4056
+D The TP4056 is a complete constant-current/constant-voltage linear charger for single cell lithium-ion batteries
+F https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf
+$ENDCMP
+#
 #End Doc Library
