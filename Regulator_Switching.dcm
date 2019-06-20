@@ -2995,7 +2995,7 @@ F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
 $ENDCMP
 #
 $CMP MP2161
-D Monolithic step-down switch mode converter with built-in internal power MOSFETs. 
+D Monolithic step-down switch mode converter with built-in internal power MOSFETs.
 K 2A, 6V, 1.5MHz, 8-pin TSOT23
 F https://www.monolithicpower.com/pub/media/document/MP2161_r1.1.pdf
 $ENDCMP
@@ -3592,6 +3592,10 @@ $CMP PAM2306DYPAA
 D 1A, Dual Step-Down DC/DC-Converter, Out1 ADJ, Out2 ADJ, 1.5MHz, W-DFN3x3
 K STEP-DOWN Dual channel 1A Out1 ADJ, Out2 ADJ
 F https://www.diodes.com/assets/Datasheets/PAM2306D.pdf
+$ENDCMP
+#
+$CMP QS-1205CME-3A
+D Adjustable dc-dc regulator
 $ENDCMP
 #
 $CMP R-781.5-0.5

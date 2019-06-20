@@ -477,4 +477,10 @@ K Z80 PIO parallel
 F https://www.zilog.com/appnotes_download.php?FromPage=DirectLink&dn=PS0180&ft=Product%20Specification%20(Data%20Sheet)%20%20&f=YUhSMGNEb3ZMM2QzZHk1NmFXeHZaeTVqYjIwdlpHOWpjeTk2T0RBdmNITXdNVGd3TG5Ca1pnPT0=
 $ENDCMP
 #
+$CMP st7580
+D The ST7580 is a flexible power line networking system-on-chip combining a high performing PHY processor core and a protocol controller with a fully integrated analog front-end (AFE) and line driver for a scalable future-proof, cost effective, single chip, narrow-band power line communication solution.
+K PLC
+F https://www.st.com/resource/en/datasheet/DM00045903.pdf
+$ENDCMP
+#
 #End Doc Library

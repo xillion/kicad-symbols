@@ -12,4 +12,10 @@ K WiFi IEEE802.11 b/g/n
 F https://www.usriot.com/download/WIFI/USR-C322%20User%20Manual%20V2.3.pdf
 $ENDCMP
 #
+$CMP WeMos_mini
+D WeMos D1 mini
+K esp8266, wemos
+F http://www.wemos.cc/Products/d1_mini.html
+$ENDCMP
+#
 #End Doc Library

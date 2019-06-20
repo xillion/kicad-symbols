@@ -648,6 +648,12 @@ K NPN DC Quad Optocoupler
 F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
 $ENDCMP
 #
+$CMP PS2801-1
+D The PS2801-1 is optically coupled isolators containing a GaAs light emitting diode and an NPN silicon phototransistor in a plastic SSOP for high density applications.
+K opto isolator, opto coupler
+F http://www.cel.com/pdf/datasheets/ps2801.pdf
+$ENDCMP
+#
 $CMP PS8802-1
 D Single DC Optocoupler Base Connected, Vcc 35V, CTR 15%, Viso 2500V, SSOP-8
 K NPN DC Optocoupler Base Connected
