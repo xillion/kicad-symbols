@@ -1,9 +1,26 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
+#
+# FakeOP
+#
+DEF FakeOP U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "FakeOP" 50 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 900 -100 100 79 0 0 0 + Normal 0 C C
+T 0 -100 -100 79 0 0 0 - Normal 0 C C
+P 2 0 1 5 -250 -100 -150 -100 N
+P 2 0 1 5 -250 100 -150 100 N
+P 2 0 1 5 250 0 350 0 N
+P 4 1 1 10 250 0 -150 200 -150 -200 250 0 f
+ENDDRAW
+ENDDEF
 #
 # Logo_Open_Hardware_Large
 #
-DEF ~Logo_Open_Hardware_Large #LOGO 0 40 Y Y 1 F N
+DEF Logo_Open_Hardware_Large #LOGO 0 40 Y Y 1 F N
 F0 "#LOGO" 0 500 50 H I C CNN
 F1 "Logo_Open_Hardware_Large" 0 -400 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -15,7 +32,7 @@ ENDDEF
 #
 # Logo_Open_Hardware_Small
 #
-DEF ~Logo_Open_Hardware_Small #LOGO 0 40 Y Y 1 F N
+DEF Logo_Open_Hardware_Small #LOGO 0 40 Y Y 1 F N
 F0 "#LOGO" 0 275 50 H I C CNN
 F1 "Logo_Open_Hardware_Small" 0 -225 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -27,7 +44,7 @@ ENDDEF
 #
 # SYM_Arrow45_Large
 #
-DEF ~SYM_Arrow45_Large #SYM 0 40 Y Y 1 F N
+DEF SYM_Arrow45_Large #SYM 0 40 Y Y 1 F N
 F0 "#SYM" 0 160 50 H I C CNN
 F1 "SYM_Arrow45_Large" 0 -140 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -40,7 +57,7 @@ ENDDEF
 #
 # SYM_Arrow45_Normal
 #
-DEF ~SYM_Arrow45_Normal #SYM 0 40 Y Y 1 F N
+DEF SYM_Arrow45_Normal #SYM 0 40 Y Y 1 F N
 F0 "#SYM" 150 50 50 H I C CNN
 F1 "SYM_Arrow45_Normal" 0 -100 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -53,7 +70,7 @@ ENDDEF
 #
 # SYM_Arrow45_Small
 #
-DEF ~SYM_Arrow45_Small #SYM 0 40 Y Y 1 F N
+DEF SYM_Arrow45_Small #SYM 0 40 Y Y 1 F N
 F0 "#SYM" 170 40 50 H I C CNN
 F1 "SYM_Arrow45_Small" 0 -90 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -66,7 +83,7 @@ ENDDEF
 #
 # SYM_Arrow45_Tiny
 #
-DEF ~SYM_Arrow45_Tiny #SYM 0 40 Y Y 1 F N
+DEF SYM_Arrow45_Tiny #SYM 0 40 Y Y 1 F N
 F0 "#SYM" 160 50 50 H I C CNN
 F1 "SYM_Arrow45_Tiny" 0 -70 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -79,7 +96,7 @@ ENDDEF
 #
 # SYM_Arrow45_XLarge
 #
-DEF ~SYM_Arrow45_XLarge #SYM 0 40 Y Y 1 F N
+DEF SYM_Arrow45_XLarge #SYM 0 40 Y Y 1 F N
 F0 "#SYM" 110 100 50 H I C CNN
 F1 "SYM_Arrow45_XLarge" 0 -180 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -92,7 +109,7 @@ ENDDEF
 #
 # SYM_Arrow_Large
 #
-DEF ~SYM_Arrow_Large #SYM 0 40 Y Y 1 F N
+DEF SYM_Arrow_Large #SYM 0 40 Y Y 1 F N
 F0 "#SYM" 0 90 50 H I C CNN
 F1 "SYM_Arrow_Large" 0 -80 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -105,7 +122,7 @@ ENDDEF
 #
 # SYM_Arrow_Normal
 #
-DEF ~SYM_Arrow_Normal #SYM 0 40 Y Y 1 F N
+DEF SYM_Arrow_Normal #SYM 0 40 Y Y 1 F N
 F0 "#SYM" 0 60 50 H I C CNN
 F1 "SYM_Arrow_Normal" 10 -50 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -118,7 +135,7 @@ ENDDEF
 #
 # SYM_Arrow_Small
 #
-DEF ~SYM_Arrow_Small #SYM 0 40 Y Y 1 F N
+DEF SYM_Arrow_Small #SYM 0 40 Y Y 1 F N
 F0 "#SYM" 0 60 50 H I C CNN
 F1 "SYM_Arrow_Small" 10 -50 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -131,7 +148,7 @@ ENDDEF
 #
 # SYM_Arrow_Tiny
 #
-DEF ~SYM_Arrow_Tiny #SYM 0 40 Y Y 1 F N
+DEF SYM_Arrow_Tiny #SYM 0 40 Y Y 1 F N
 F0 "#SYM" 0 60 50 H I C CNN
 F1 "SYM_Arrow_Tiny" 10 -50 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -144,7 +161,7 @@ ENDDEF
 #
 # SYM_Arrow_XLarge
 #
-DEF ~SYM_Arrow_XLarge #SYM 0 40 Y Y 1 F N
+DEF SYM_Arrow_XLarge #SYM 0 40 Y Y 1 F N
 F0 "#SYM" 0 90 50 H I C CNN
 F1 "SYM_Arrow_XLarge" 0 -80 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -157,7 +174,7 @@ ENDDEF
 #
 # SYM_ESD_Large
 #
-DEF ~SYM_ESD_Large #SYM 0 40 Y Y 1 F N
+DEF SYM_ESD_Large #SYM 0 40 Y Y 1 F N
 F0 "#SYM" 0 200 50 H I C CNN
 F1 "SYM_ESD_Large" 0 -250 50 H I C CNN
 F2 "" -5 -30 50 H I C CNN
@@ -171,7 +188,7 @@ ENDDEF
 #
 # SYM_ESD_Small
 #
-DEF ~SYM_ESD_Small #SYM 0 40 Y Y 1 F N
+DEF SYM_ESD_Small #SYM 0 40 Y Y 1 F N
 F0 "#SYM" 0 140 50 H I C CNN
 F1 "SYM_ESD_Small" 0 -125 50 H I C CNN
 F2 "" 0 10 50 H I C CNN
@@ -185,7 +202,7 @@ ENDDEF
 #
 # SYM_Earth_Protective_Large
 #
-DEF ~SYM_Earth_Protective_Large #SYM 0 0 Y Y 1 F N
+DEF SYM_Earth_Protective_Large #SYM 0 0 Y Y 1 F N
 F0 "#SYM" 0 200 50 H I C CNN
 F1 "SYM_Earth_Protective_Large" 0 -175 50 H I C CNN
 F2 "" 0 50 50 H I C CNN
@@ -202,7 +219,7 @@ ENDDEF
 #
 # SYM_Earth_Protective_Small
 #
-DEF ~SYM_Earth_Protective_Small #SYM 0 0 Y Y 1 F N
+DEF SYM_Earth_Protective_Small #SYM 0 0 Y Y 1 F N
 F0 "#SYM" 0 150 50 H I C CNN
 F1 "SYM_Earth_Protective_Small" 0 -150 50 H I C CNN
 F2 "" 0 50 50 H I C CNN
@@ -218,7 +235,7 @@ ENDDEF
 #
 # SYM_Flash_Large
 #
-DEF ~SYM_Flash_Large #SYM 0 40 Y Y 1 F N
+DEF SYM_Flash_Large #SYM 0 40 Y Y 1 F N
 F0 "#SYM" -150 0 50 V I C CNN
 F1 "SYM_Flash_Large" 130 0 50 V I C CNN
 F2 "" -10 -90 50 H I C CNN
@@ -231,7 +248,7 @@ ENDDEF
 #
 # SYM_Flash_Small
 #
-DEF ~SYM_Flash_Small #SYM 0 40 Y Y 1 F N
+DEF SYM_Flash_Small #SYM 0 40 Y Y 1 F N
 F0 "#SYM" -90 0 50 V I C CNN
 F1 "SYM_Flash_Small" 90 0 50 V I C CNN
 F2 "" 0 -25 50 H I C CNN
@@ -244,7 +261,7 @@ ENDDEF
 #
 # SYM_Flash_XLarge
 #
-DEF ~SYM_Flash_XLarge #SYM 0 40 Y Y 1 F N
+DEF SYM_Flash_XLarge #SYM 0 40 Y Y 1 F N
 F0 "#SYM" -150 0 50 V I C CNN
 F1 "SYM_Flash_XLarge" 150 0 50 V I C CNN
 F2 "" 0 -25 50 H I C CNN
@@ -257,7 +274,7 @@ ENDDEF
 #
 # SYM_Hot_Large
 #
-DEF ~SYM_Hot_Large #SYM 0 40 Y N 1 F N
+DEF SYM_Hot_Large #SYM 0 40 Y N 1 F N
 F0 "#SYM" 0 200 50 H I C CNN
 F1 "SYM_Hot_Large" 0 -250 50 H I C CNN
 F2 "" 0 -200 50 H I C CNN
@@ -276,7 +293,7 @@ ENDDEF
 #
 # SYM_Hot_Small
 #
-DEF ~SYM_Hot_Small #SYM 0 40 Y N 1 F N
+DEF SYM_Hot_Small #SYM 0 40 Y N 1 F N
 F0 "#SYM" 0 140 50 H I C CNN
 F1 "SYM_Hot_Small" 0 -125 50 H I C CNN
 F2 "" 0 -175 50 H I C CNN
@@ -295,7 +312,7 @@ ENDDEF
 #
 # SYM_LASER_Large
 #
-DEF ~SYM_LASER_Large #SYM 0 40 Y N 1 F N
+DEF SYM_LASER_Large #SYM 0 40 Y N 1 F N
 F0 "#SYM" 0 200 50 H I C CNN
 F1 "SYM_LASER_Large" 0 -265 50 H I C CNN
 F2 "" -10 -175 50 H I C CNN
@@ -315,7 +332,7 @@ ENDDEF
 #
 # SYM_LASER_Small
 #
-DEF ~SYM_LASER_Small #SYM 0 40 Y N 1 F N
+DEF SYM_LASER_Small #SYM 0 40 Y N 1 F N
 F0 "#SYM" 0 140 50 H I C CNN
 F1 "SYM_LASER_Small" 0 -125 50 H I C CNN
 F2 "" 0 -175 50 H I C CNN
@@ -335,7 +352,7 @@ ENDDEF
 #
 # SYM_Magnet_Large
 #
-DEF ~SYM_Magnet_Large #SYM 0 40 Y N 1 F N
+DEF SYM_Magnet_Large #SYM 0 40 Y N 1 F N
 F0 "#SYM" 0 200 50 H I C CNN
 F1 "SYM_Magnet_Large" 0 -250 50 H I C CNN
 F2 "" 0 -200 50 H I C CNN
@@ -352,7 +369,7 @@ ENDDEF
 #
 # SYM_Magnet_Small
 #
-DEF ~SYM_Magnet_Small #SYM 0 40 Y N 1 F N
+DEF SYM_Magnet_Small #SYM 0 40 Y N 1 F N
 F0 "#SYM" 0 140 50 H I C CNN
 F1 "SYM_Magnet_Small" 0 -125 50 H I C CNN
 F2 "" 0 -175 50 H I C CNN
@@ -369,7 +386,7 @@ ENDDEF
 #
 # SYM_Radio_Waves_Large
 #
-DEF ~SYM_Radio_Waves_Large #SYM 0 40 Y N 1 F N
+DEF SYM_Radio_Waves_Large #SYM 0 40 Y N 1 F N
 F0 "#SYM" 0 200 50 H I C CNN
 F1 "SYM_Radio_Waves_Large" 0 -250 50 H I C CNN
 F2 "" 0 -200 50 H I C CNN
@@ -389,7 +406,7 @@ ENDDEF
 #
 # SYM_Radio_Waves_Small
 #
-DEF ~SYM_Radio_Waves_Small #SYM 0 40 Y N 1 F N
+DEF SYM_Radio_Waves_Small #SYM 0 40 Y N 1 F N
 F0 "#SYM" 0 140 50 H I C CNN
 F1 "SYM_Radio_Waves_Small" 0 -125 50 H I C CNN
 F2 "" 0 -175 50 H I C CNN
@@ -407,7 +424,7 @@ ENDDEF
 #
 # SYM_Radioactive_Large
 #
-DEF ~SYM_Radioactive_Large #SYM 0 40 Y N 1 F N
+DEF SYM_Radioactive_Large #SYM 0 40 Y N 1 F N
 F0 "#SYM" 95 280 50 H I C CNN
 F1 "SYM_Radioactive_Large" 95 -170 50 H I C CNN
 F2 "" 95 -120 50 H I C CNN
@@ -435,7 +452,7 @@ ENDDEF
 #
 # SYM_Radioactive_Radiation_Small
 #
-DEF ~SYM_Radioactive_Radiation_Small #SYM 0 40 Y N 1 F N
+DEF SYM_Radioactive_Radiation_Small #SYM 0 40 Y N 1 F N
 F0 "#SYM" 0 140 50 H I C CNN
 F1 "SYM_Radioactive_Radiation_Small" 0 -125 50 H I C CNN
 F2 "" 0 -175 50 H I C CNN

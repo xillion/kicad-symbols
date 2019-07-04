@@ -108,6 +108,10 @@ K hall switch
 F https://www.diodes.com/assets/Datasheets/AH1806.pdf
 $ENDCMP
 #
+$CMP AH49HNTR-G1
+F https://www.diodes.com/assets/Datasheets/AH49H.pdf
+$ENDCMP
+#
 $CMP AK7452
 D Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, UVW, TSSOP-16
 K sensor magnetic hall position rotation spi
