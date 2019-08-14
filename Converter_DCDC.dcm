@@ -96,10 +96,38 @@ K DC/DC converter single
 F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
 $ENDCMP
 #
+$CMP B0303XT-1WR2
+D 1W isolated DC-DC converter Fixed input 3.3V voltage, unregulated single 3.3V output
+F https://www.mornsun-power.com/uploads/pdf/B_XT-1WR2.pdf
+$ENDCMP
+#
+$CMP B0305XT-1WR2
+D 1W isolated DC-DC converter Fixed input 3.3V voltage, unregulated single 5V output
+F https://www.mornsun-power.com/uploads/pdf/B_XT-1WR2.pdf
+$ENDCMP
+#
+$CMP B0503XT-1WR2
+D 1W isolated DC-DC converter Fixed input 5V voltage, unregulated single 3.3V output
+K isolated DC-DC converter
+F https://www.mornsun-power.com/uploads/pdf/B_XT-1WR2.pdf
+$ENDCMP
+#
+$CMP B0505XT-1WR2
+D 1W isolated DC-DC converterFixed input 5V voltage, unregulated single 5V output
+K isolated DC-DC converter
+F https://www.mornsun-power.com/uploads/pdf/B_XT-1WR2.pdf
+$ENDCMP
+#
 $CMP BD8314NUV
 D 3.0V to 12V, Integrated 2.5A MOSFET 1ch Boost Converter, VSON-10
 K DCDC converter
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd8314nuv-e.pdf
+$ENDCMP
+#
+$CMP B_XT-1WR2
+D 1W isolated DC-DC converter Fixed input  voltage, unregulated single output
+K isolated DC-DC
+F https://www.mornsun-power.com/uploads/pdf/B_XT-1WR2.pdf
 $ENDCMP
 #
 $CMP IA0305D

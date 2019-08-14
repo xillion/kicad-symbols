@@ -42,6 +42,11 @@ K NB-IoT Data SMS
 F https://simcom.ee/documents/SIM7020/SIM7020%20Hardware%20Design_V1.01.pdf
 $ENDCMP
 #
+$CMP SIM7020G
+K NB-IoT GSM 4G modem
+F https://simcom.ee/documents/SIM7020/SIM7020G%20Hardware%20Design_V1.00.pdf
+$ENDCMP
+#
 $CMP SIM800C
 D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set, Bluetooth is Optional
 K GSM GPRS Quad-Band SMS

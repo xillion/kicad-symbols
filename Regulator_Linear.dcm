@@ -4692,6 +4692,10 @@ K regulator linear ldo
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf
 $ENDCMP
 #
+$CMP ME6212C33M5G
+F https://datasheet.lcsc.com/szlcsc/Nanjing-Micro-One-Elec-ME6212C33M5G_C81233.pdf
+$ENDCMP
+#
 $CMP MIC29152WT
 D 1.5A low dropout linear regulator, adjustable output, TO-220
 K 1.5A LDO linear voltage regulator adjustable positive
