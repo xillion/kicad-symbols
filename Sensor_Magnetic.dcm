@@ -166,6 +166,16 @@ K hall switch
 F http://www.ti.com/lit/ds/symlink/drv5033.pdf
 $ENDCMP
 #
+$CMP DRV5055A1QDBZR
+D inear Hall effect sensor
+F https://www.ti.com/lit/ds/symlink/drv5055.pdf
+$ENDCMP
+#
+$CMP DRV5055A1QLPG
+D inear Hall effect sensor
+F https://www.ti.com/lit/ds/symlink/drv5055.pdf
+$ENDCMP
+#
 $CMP IST8308
 D 3D Magnetometer, High Sensitivity, I2C Interface, LGA-16
 K magnet field sensor compass

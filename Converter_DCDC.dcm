@@ -2680,4 +2680,10 @@ K Traco isolated isolation dc-dc converter transformer
 F https://www.tracopower.com/products/tmr2wi.pdf
 $ENDCMP
 #
+$CMP TPS63802
+D High efficiency, high output current buck-boost converter.
+K buck-boost, DC-DC
+F https://www.ti.com/lit/ds/symlink/tps63802.pdf
+$ENDCMP
+#
 #End Doc Library
