@@ -1285,7 +1285,7 @@ F http://www.diodes.com/assets/Datasheets/DMG3418L.pdf
 $ENDCMP
 #
 $CMP DMG6968UTS
-D DUAL N-CHANNEL ENHANCEMENT MODE MOSFET 
+D DUAL N-CHANNEL ENHANCEMENT MODE MOSFET
 F https://www.diodes.com/assets/Datasheets/ds31793.pdf
 $ENDCMP
 #
@@ -1443,6 +1443,10 @@ $CMP FDMC8032L
 D 7A Id, 40V Vds, Dual N-Channel MOSFET, 20mOhm Ron, Power33 Package
 K Dual N-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDMC8032L.pdf
+$ENDCMP
+#
+$CMP FDMC8884
+F https://datasheet.octopart.com/FDMC8884-Fairchild-datasheet-5360054.pdf
 $ENDCMP
 #
 $CMP FDMS8050
