@@ -30,6 +30,12 @@ K GSM HSPA 2G 3G
 F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
 $ENDCMP
 #
+$CMP SIM7000G
+D The SIM7000G series modules support LTE CAT-M1, LTE CAT-NB1, GPRS and EDGE.
+K SIMCOM, SIM7000, SIM7000G
+F http://mt-system.ru/sites/default/files/documents/sim7000_hardware_design_v1.05.pdf
+$ENDCMP
+#
 $CMP SIM7020C
 D NB-IoT B1/B3/B5/B8, AT Command Set
 K NB-IoT Data SMS

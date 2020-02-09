@@ -2982,6 +2982,10 @@ K buck converter
 F https://www.monolithicpower.com/pub/media/document/MP1470_r1.02.pdf
 $ENDCMP
 #
+$CMP MP1482
+D The  MP1482  is  a  monolithic 2A, 18V synchronous  buck  regulator.
+$ENDCMP
+#
 $CMP MP171GJ
 D 60mA Non-Isolated Off-Line Regulator, 700V Input Voltage, Adjustable Output Voltage, TSOT-23-5
 K regulator switching adjustable
