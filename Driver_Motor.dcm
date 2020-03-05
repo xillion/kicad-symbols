@@ -312,6 +312,12 @@ K stepper motor driver
 F http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2130_datasheet.pdf
 $ENDCMP
 #
+$CMP TMC2208-LA
+D The TMC2208 is un ultra-silent  motor driver ICs for  two  phase  stepper  motors.
+K motor driver, stepper  motor, TRINAMIC
+F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC220x_TMC2224_datasheet_Rev1.09.pdf
+$ENDCMP
+#
 $CMP TMC262
 D Driver for two-phase stepper motors with external mosfet
 K trinamic tlc262 stepper
