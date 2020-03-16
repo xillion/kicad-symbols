@@ -858,6 +858,12 @@ K dual opamp
 F http://www.njr.com/semicon/PDF/NJM4580_E.pdf
 $ENDCMP
 #
+$CMP NJM4580V
+D Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8
+K dual opamp
+F https://datasheet.lcsc.com/szlcsc/1809051127_JRC-NJM4580V-TE2-ZZZB_C108071.pdf
+$ENDCMP
+#
 $CMP NJM5532
 D Dual Low-Noise Operational Amplifier, DIP-8/DMP-8/SIP-8
 K dual opamp

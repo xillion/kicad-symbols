@@ -1134,6 +1134,18 @@ K LEMO connector
 F  ~
 $ENDCMP
 #
+$CMP MICRO_SIM
+D Micro SIM card holder
+K SIM card UICC
+F  ~
+$ENDCMP
+#
+$CMP MICRO_SIM_EJECT
+D Micro SIM card holder with autoeject
+K SIM card UICC
+F  ~
+$ENDCMP
+#
 $CMP MXM3.0
 D MXM3.0 connector
 K MXM connector
@@ -1198,6 +1210,12 @@ $CMP Mini-DIN-8
 D 8-pin Mini-DIN connector
 K Mini-DIN
 F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
+$ENDCMP
+#
+$CMP NANO_SIM
+D Nano SIM card holder
+K SIM card UICC
+F  ~
 $ENDCMP
 #
 $CMP RJ10

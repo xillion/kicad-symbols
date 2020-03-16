@@ -564,6 +564,12 @@ K rectifier acdc
 F http://www.vishay.com/docs/88656/kbu8.pdf
 $ENDCMP
 #
+$CMP MB14S
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 40V 550mV @ 1A
+K rectifier acdc
+F https://datasheet.lcsc.com/szlcsc/1807311033_Shandong-Jingdao-Microelectronics-MB14S_C169506.pdf
+$ENDCMP
+#
 $CMP MB2S
 D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 140V Vrms, 0.5A If, TO-269AA
 K rectifier acdc
