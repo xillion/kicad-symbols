@@ -1427,6 +1427,12 @@ K P-Channel MOSFET
 F https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf
 $ENDCMP
 #
+$CMP FDC6329L
+D Integrated Load Switch 2.5V to 8V input voltage and 2.5A output current
+K Load Switch
+F https://datasheet.lcsc.com/szlcsc/1809111813_ON-Semiconductor-FDC6329L_C10864.pdf
+$ENDCMP
+#
 $CMP FDG1024NZ
 D 1.2A Id, 20V Vds, Dual N-Channel MOSFET, 175mOhm Ron, SC-70-6
 K Dual N-Channel MOSFET Logic Level
@@ -2329,6 +2335,11 @@ $CMP IRLZ44N
 D 47A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB
 K Single N-Channel HEXFET Power MOSFET
 F http://www.irf.com/product-info/datasheets/data/irlz44n.pdf
+$ENDCMP
+#
+$CMP KIA3415
+D P Channel 20V 4A 800mV @ 250uA 45 mΩ @ 4A,4.5V 1.4W SOT-23(SOT-23-3) MOSFET 
+F https://datasheet.lcsc.com/szlcsc/1810010717_KIA-Semicon-Tech-KIA3415_C116040.pdf
 $ENDCMP
 #
 $CMP MMBF170

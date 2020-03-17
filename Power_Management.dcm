@@ -912,6 +912,18 @@ K push-button-controller low-power
 F http://www.st.com/resource/en/datasheet/stm6600.pdf
 $ENDCMP
 #
+$CMP SY8104ADC
+D Step-Down Positive Adjustable 4A 500kHz TSOT23-6 DC-DC Converters
+K Step-Down DC-DC
+F https://datasheet.lcsc.com/szlcsc/1808280451_Silergy-Corp-SY8104ADC_C207640.pdf
+$ENDCMP
+#
+$CMP SY8113BADC
+D Step-Down Positive Adjustable 3A 500kHz TSOT-23-6 DC-DC Converters
+K Step-Down DC-DC
+F https://datasheet.lcsc.com/szlcsc/1809212127_Silergy-Corp-SY8113BADC_C78989.pdf
+$ENDCMP
+#
 $CMP TEA1708T
 D GreenChip X capacitor discharge IC, SOIC-8
 K X capacitor discharge

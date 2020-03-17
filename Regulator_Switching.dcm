@@ -5138,6 +5138,12 @@ K step-down dcdc voltage regulator
 F http://www.ti.com/lit/ds/symlink/tps563200.pdf
 $ENDCMP
 #
+$CMP TPS56528
+D Step-Down Positive Adjustable 5A 650kHz DC-DC Converters
+K Step-Down DC-DC
+F https://datasheet.lcsc.com/szlcsc/1805310826_Texas-Instruments-TPS56528DDAR_C138716.pdf
+$ENDCMP
+#
 $CMP TPS568215RNN
 D 4.5V-17V Input, 8A Synchronous Step-Down SWIFT Converter, Adjustable Output, 400kHz/800kHz/1.2MHz Switching Frequency, Texas VQFN-18
 K switching buck converter step-down
