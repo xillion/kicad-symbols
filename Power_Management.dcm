@@ -858,6 +858,12 @@ K power switch FET driver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2587-87r.pdf
 $ENDCMP
 #
+$CMP MP2233DJ
+D The MP2233 is a high-frequency, synchronous, rectified, step-down switch mode converter with built  in  internal  power  MOSFETs.
+K DC-DC STEP DOWN
+F https://www.monolithicpower.com/jp/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2233/document_id/476/
+$ENDCMP
+#
 $CMP NPC45560-H
 D Controlled load switch with low Ron
 K load switch
