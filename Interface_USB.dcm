@@ -252,6 +252,10 @@ K USB USB-C PD Power Delivery PHY TCPC
 F http://www.onsemi.com/pub/Collateral/FUSB307B-D.PDF
 $ENDCMP
 #
+$CMP GL850G
+F https://datasheet.lcsc.com/szlcsc/1809291522_Genesys-Logic-GL850G-OHY37_C127278.pdf
+$ENDCMP
+#
 $CMP MCP2200-E-SS
 D USB 2.0 to UART Protocol Converter with GPIO,Extended Temperature Range,SSOP
 K USB UART Converter
@@ -394,6 +398,10 @@ $CMP TUSB8041
 D four port USB 3.0 Hub
 K USB3.0 hub
 F http://www.ti.com/lit/ds/symlink/tusb8041.pdf
+$ENDCMP
+#
+$CMP USB2412-DZK
+F https://datasheet.lcsc.com/szlcsc/1809131538_Microchip-Tech-USB2412-DZK_C220647.pdf
 $ENDCMP
 #
 $CMP USB2514B_Bi

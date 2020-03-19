@@ -1428,7 +1428,7 @@ F https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf
 $ENDCMP
 #
 $CMP FDC6329L
-D Integrated Load Switch 2.5V to 8V input voltage and 2.5A output current
+D Integrated Load Switch 2.5V to 8V input voltage and 2.5A output current SuperSOT-6
 K Load Switch
 F https://datasheet.lcsc.com/szlcsc/1809111813_ON-Semiconductor-FDC6329L_C10864.pdf
 $ENDCMP
@@ -2338,7 +2338,7 @@ F http://www.irf.com/product-info/datasheets/data/irlz44n.pdf
 $ENDCMP
 #
 $CMP KIA3415
-D P Channel 20V 4A 800mV @ 250uA 45 mΩ @ 4A,4.5V 1.4W SOT-23(SOT-23-3) MOSFET 
+D P Channel 20V 4A 800mV @ 250uA 45 mΩ @ 4A,4.5V 1.4W SOT-23(SOT-23-3) MOSFET
 F https://datasheet.lcsc.com/szlcsc/1810010717_KIA-Semicon-Tech-KIA3415_C116040.pdf
 $ENDCMP
 #
@@ -2508,6 +2508,12 @@ $CMP TP0610T
 D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+$CMP TPS27081A
+D Integrated Load Switch 1.2V to 8V input voltage and 3A output current SOT-23-6
+K Load Switch
+F http://www.ti.com/lit/ds/symlink/tps27081a.pdf
 $ENDCMP
 #
 $CMP VN10LF
