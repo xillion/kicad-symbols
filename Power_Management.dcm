@@ -252,6 +252,11 @@ K voltage detector cmos VSOF5
 F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
 $ENDCMP
 #
+$CMP BD82065FVJ
+D Power Distribution Switches
+F https://datasheet.lcsc.com/szlcsc/1807301849_ROHM-Semicon-BD82065FVJ-E2_C253181.pdf
+$ENDCMP
+#
 $CMP BTN8982TA
 D High Current PN Half Bridge, TO-263-7
 K half bridge for motor drive applications
