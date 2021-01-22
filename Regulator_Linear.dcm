@@ -636,6 +636,11 @@ K linear regulator ldo fixed positive
 F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
 $ENDCMP
 #
+$CMP AP78LXX
+D The  AP78LXX  series  is  a  three  terminal  device  with  fixed  output  voltages  from  5V,8V  and  12 in TO92,  SOT89  and  SO-8  packages
+F https://datasheet.lcsc.com/szlcsc/1811061323_Diodes-Incorporated-AP78L05YG-13_C112344.pdf
+$ENDCMP
+#
 $CMP APE8865N-12-HF-3
 D 300mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23
 K 300mA LDO Regulator Fixed Positive
@@ -1462,6 +1467,11 @@ $CMP KA78M05_TO252
 D Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)
 K Voltage Regulator 500mA Positive
 F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
+$ENDCMP
+#
+$CMP KF50BD-TR
+D Fixed 20V 5V 700mV @ 500mA
+F https://datasheet.lcsc.com/szlcsc/1809051941_STMicroelectronics-KF50BD-TR_C222151.pdf
 $ENDCMP
 #
 $CMP L200
