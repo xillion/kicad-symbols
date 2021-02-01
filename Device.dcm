@@ -60,6 +60,12 @@ K quartz resonator ceramic
 F ~
 $ENDCMP
 #
+$CMP Buzzer_alt
+D Active buzzer, polarized
+K quartz resonator ceramic
+F ~
+$ENDCMP
+#
 $CMP C
 D Unpolarized capacitor
 K cap capacitor
